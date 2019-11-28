@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/statistics_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202040"
+    android:orientation="vertical"
+    android:padding="8px">
+
+    <TextView
+        android:id="@+id/end_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="4sp"
+        android:paddingBottom="12sp"
+        android:text="Title"
+        android:textSize="13pt" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/end_label_elapsed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_elapsed"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_elapsed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1234 seconds"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/end_label_fastest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_fastest"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_fastest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="456 seconds"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/end_label_average"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_average"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_average"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="789.01 seconds"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="12sp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_sets_found"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_sets_found"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_errors"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_errors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12sp"
+        android:paddingBottom="12sp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_games_played"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_games_played"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_sets_all_time"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_sets_all_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="456"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_errors_all_time"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_errors_all_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="789"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="8px"
+                android:text="@string/end_label_playing_time"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/end_value_playing_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:34:56"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/cheater_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/cheater"
+        android:textSize="5pt"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/back_to_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back to game" />
+</LinearLayout>
